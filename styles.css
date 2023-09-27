@@ -1,0 +1,137 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Gilroy';
+    color: #fff;
+}
+
+html, body{
+    height: 100%;
+    width: 100%;
+}
+
+.main{
+    background-color: #0F0D0D;
+}
+/* vh stands for view port height */
+.page1{
+    min-height: 100vh;
+    width: 100%;
+
+}
+
+#nav{
+    height: 55px;
+    width: 100%;
+    /* background-color: red; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0  30px;
+}
+
+.logo{
+    height: 26px;
+}
+
+#nav-part2{
+display: flex;
+align-items: center;
+justify-content: center;
+gap: 20px;
+}
+
+#circle{
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    background-color: #fff;
+}
+
+#nav h4{
+    font-size: 12px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+#nav h4:nth-child(1){
+    border-bottom: 1.5px solid #fff;
+}
+/* vw-view width use to make website responsive */
+.page1 h1{
+    font-size: 8vw;
+    font-weight: 200;
+    margin-top: 12vw;
+    margin-left: 6vw;
+}
+
+.page1 h2{
+    font-size: 8vw;
+    font-weight: 200;
+    margin-left: 26vw;
+}
+
+video{
+    margin-top: 5vw;
+    width: 50%;
+    height: 35%;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%,0);
+}
+
+.page2{
+    min-height: 130vh;
+    width: 100%;
+    padding: 70px 5vw;
+}
+.page2 h1{
+    font-size:7vw;
+    font-weight: 50;
+    color: #111;
+}
+
+.page2-container{
+    height: 60vh;
+    width: 100%;
+    /* background-color: red; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* padding: 0 5vw; */
+}
+
+.page2-left{
+    /* background-color: blue; */
+    width: 36%;
+}
+
+.page2-right{
+    /* background-color: blue; */
+    width: 30%;
+}
+
+.page2-left h2{
+    font-size: 4vw;
+    font-weight: 300;
+    color: #111;
+}
+
+.page2-right p{
+font-size: 20px;
+color: #111;
+}
+
+.page2-right button{
+    width: 100%;
+    border-radius: 50px;
+    border: none;
+    padding: 4px 0;
+    background-color: #EDBFFF;
+    color: black;
+    margin-top: 20px;
+}
+
+  
+
